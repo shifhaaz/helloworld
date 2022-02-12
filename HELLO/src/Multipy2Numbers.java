@@ -2,10 +2,15 @@ import java.util.Scanner;
 public class Multipy2Numbers {
 public static void main(String args[])
 {
-	Scanner reader= new Scanner (System.in);
+	Scanner reader1= new Scanner (System.in);
 	System.out.println("Enter the Number:");
-	int number = reader.nextInt();
-	int A = number*2;
-	System.out.println("this is the multiplication with 2 of the  number you have entered :"+A);
+	int number1 = reader1.nextInt();
+	
+	Scanner reader2= new Scanner (System.in);
+	System.out.println("Enter the Number anothernumber for multiplication:");
+	int number2 = reader2.nextInt();
+	
+	int A = number1*number2;
+	System.out.println("this is the multiplication of 2 numbers which is entered by user:"+A);
 }
 }
