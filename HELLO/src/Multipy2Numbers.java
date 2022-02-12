@@ -7,7 +7,7 @@ public static void main(String args[])
 	int number1 = reader1.nextInt();
 	
 	Scanner reader2= new Scanner (System.in);
-	System.out.println("Enter the Number anothernumber for multiplication:");
+	System.out.println("Enter the Number another number for multiplication:");
 	int number2 = reader2.nextInt();
 	
 	int A = number1*number2;
