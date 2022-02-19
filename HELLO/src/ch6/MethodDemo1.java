@@ -9,11 +9,14 @@ public class MethodDemo1 {
 		obj.met(100,"hi");
 		obj.met("hi",200);
 		obj.call(834759479794793L);
+		
 		System.out.println("\n***********************\n");
 		obj.varmet(10,20,30,40,50,60,60,80);
 		int a[]= {12,34,54,21,43,66,43};
 		obj.out(a);
+		
 	}
+	
 	void met()
 	{
 		System.out.println("met method called");
