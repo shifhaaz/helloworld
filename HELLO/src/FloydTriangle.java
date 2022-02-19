@@ -3,10 +3,10 @@ public class FloydTriangle {
 
 	public static void main(String[] args) {
 		int number = 1,i,j; 
-         //To get the user's input 
+        
          Scanner input = new Scanner(System.in); 
          System.out.println("Enter the number of rows for floyd's triangle:"); 
-         //Copying user input into an integer variable named rows 
+         
          int rows = input.nextInt(); 
          System.out.println("Floyd's triangle"); 
   
