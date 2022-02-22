@@ -3,7 +3,7 @@ package ch6;
 public class MethodDemo3 {
 
 	public static void main(String[] args) {
-		Hall hall = new Hall();
+		Hall hall = new MarriageHall();
 		MarriageHall mh=new MarriageHall();
 		hall.feast();
 		mh.feast();
