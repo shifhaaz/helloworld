@@ -14,7 +14,7 @@ public class Innerclasses {
 
 }
 class outer{
-	void met() {
+	void outermet() {
 		System.out.println("outer class non static method called....");
 		
 	}
