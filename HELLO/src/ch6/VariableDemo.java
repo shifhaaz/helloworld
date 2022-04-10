@@ -5,13 +5,13 @@ public class VariableDemo {
 	public static void main(String[] args) {
 		VariableDemo obj= new VariableDemo();
 		Laddu laddu= new Laddu();
-		//System.out.println("Before Passing "+laddu.size);
-		//obj.pbv(laddu.size);
-		//System.out.println("After Passing "+laddu.size);
-		
 		System.out.println("Before Passing "+laddu.size);
-		obj.pbr(laddu);
+		obj.pbv(laddu.size);
 		System.out.println("After Passing "+laddu.size);
+		
+		//System.out.println("Before Passing "+laddu.size);
+		//obj.pbr(laddu);
+		//System.out.println("After Passing "+laddu.size);
 		
 	
 	}
