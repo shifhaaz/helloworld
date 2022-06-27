@@ -15,7 +15,7 @@ public class consdemo {
 	}
 
 	public static void main(String[] args) {
-	consdemo obj=new consdemo();	
+//	consdemo obj=new consdemo();	
 	consdemo obj2=new consdemo("hello");	
 	
 	new consdemo();//new keyword used to call constructor

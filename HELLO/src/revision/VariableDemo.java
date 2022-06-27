@@ -1,4 +1,4 @@
-package ch6;
+package revision;
 
 public class VariableDemo {
 

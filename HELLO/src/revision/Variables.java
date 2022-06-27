@@ -1,4 +1,4 @@
-package abc;
+package revision;
 
 public class Variables {
 
@@ -16,6 +16,7 @@ public class Variables {
 	Double iiiD=4.76;
 	
 	char myChar='s';
+	System.out.println(myChar);
 	Character iiiiC='r';
 	
 	boolean myboolean=true;

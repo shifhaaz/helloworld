@@ -1,9 +1,9 @@
 package ch6;
-
+//https://fluvid.com/videos/detail/-KRkYhGjmmSEzEOE_#.Yh7cRI6mtks.link
 public class AbstractDemo2 {
 
 	public static void main(String[] args) {
-		DominoPizza dominos=new IndianDominoPizza();
+		DominoPizza dominos=new IndianDominoPizza();//
 		dominos.makepizza();
 		dominos.collectPayment();
 		dominos.deliverPizza();
